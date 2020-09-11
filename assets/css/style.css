@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #000;
+    height: 100vh;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.nav-section{
+    height: 80px !important;
+    background-color: #000 !important;
+    z-index: 10;
+}
+
+.nav-link{
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    color: #e4e4e4 !important;
+    line-height: 16px !important;
+}
+.banner-content-header{
+    line-height: 57px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.banner-content-title{
+    font-weight: 700;
+    color: #ffc740;
+    font-size: 48px;
+}
+.banner-content-subtitle{
+    color: #fff;
+    font-size: 40px;
+}
+
+.banner-content p{
+    font-weight: 300;
+    font-size: 14px;
+    color: #d5d5d5;
+    max-width: 380px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.banner-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+.default-button{
+    color: #000;
+    background: #ffc740;
+    font-size: 14px;
+    line-height: 1;
+    padding: 13px 30px;
+    font-weight: 500;
+    border-radius: 3px;
+    outline: none !important;
+    border: none;
+    margin-right: 35px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 10px 13px 0px rgba(255,199,64,0.26);
+    -moz-box-shadow: 0px 10px 13px 0px rgba(255,199,64,0.26);
+    box-shadow: 0px 10px 13px 0px rgba(255,199,64,0.26);  
+}
+.default-button:hover{
+    color: #fff;
+    text-decoration: none;
+  
+}
+.owl-dots{
+    background-color: black;
+    margin: 0;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.owl-dot span{
+    width: 20px !important;
+    height: 20px !important;
+}
+.owl-dot.active span{
+    background-color: #ffc740 !important;
+}
